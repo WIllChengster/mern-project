@@ -1,0 +1,27 @@
+{
+  "name": "mern-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/burninggun/mern-project.git"
+  },
+  "author": "will cheng",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/burninggun/mern-project/issues"
+  },
+  "homepage": "https://github.com/burninggun/mern-project#readme",
+  "dependencies": {
+    "cors": "^2.8.4",
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.3"
+  }
+}

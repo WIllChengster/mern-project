@@ -3,7 +3,10 @@ import axios from 'axios';
 
 class GetStuff extends Component {
     componentDidMount(){
-        axios.get('http://localhost:9000/api/get-stuff').then( res => {
+        axios.get('/api/get-stuff').then( res => {
+            console.log(res);
+        })
+        axios.post('/api/get-user').then(res => {
             console.log(res);
         })
     }
